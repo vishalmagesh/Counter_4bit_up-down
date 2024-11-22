@@ -7,6 +7,7 @@ To write a verilog code for 4bit up/down counter and verify the functionality us
 ## Tools used for ASIC Flow:
 
 1.	nclaunch- Used for Functional Simulation
+
    
 ## Design Information and Bock Diagram:
 
