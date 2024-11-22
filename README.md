@@ -59,6 +59,7 @@ Functional Simulation:
 */Program  for  4-Bit Up-Down Counter
 
 	Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
+![Screenshot (14)](https://github.com/user-attachments/assets/dc4d4d40-4b6e-46f0-8ae9-a0ab46412a54)
 
 ## Creating Test bench:
 
@@ -80,6 +81,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![Screenshot (16)](https://github.com/user-attachments/assets/ca2f9857-6e90-45ee-86a9-10efc5635508)
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +90,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![Screenshot (17)](https://github.com/user-attachments/assets/f58c7e47-ad3e-471e-b3de-f466f8ceaab7)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,10 +101,12 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![image](https://github.com/user-attachments/assets/d2d9d1b9-c2a0-4dcf-874c-a326c4e57c48)
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![image](https://github.com/user-attachments/assets/6e345a8d-6f11-449d-ad2a-8bbcb640c9e3)
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -131,6 +136,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot (19)](https://github.com/user-attachments/assets/c3a1e866-05b6-4e3b-a7fc-0286dde6335d)
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -153,6 +159,7 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![image](https://github.com/user-attachments/assets/663e8744-93a8-41bc-ba7b-b20e470dcfd5)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,12 +172,8 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/6e5a7a53-f282-455b-8ad2-03b1fdedabbe)
 
 ## Fig 10: Simulation Waveform Window
-
-## Fig 11: Simulation Waveform Window
-
-### Result
-
-The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
+![image](https://github.com/user-attachments/assets/4b6b9661-f323-4556-b7b9-1b6125b91e57)
 
